@@ -11,7 +11,10 @@
   },
   "dependencies": {
     "@astrojs/starlight": "^0.35.2",
+    "@fontsource/poppins": "^5.2.6",
     "astro": "^5.6.1",
-    "sharp": "^0.34.2"
+    "sharp": "^0.34.2",
+    "starlight-theme-nova": "^0.9.2",
+    "starlight-theme-rapide": "^0.5.1"
   }
 }
