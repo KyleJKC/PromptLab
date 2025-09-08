@@ -61,10 +61,10 @@ export default defineConfig({
           //   { label: "Example Guide", slug: "guides/example" },
           // ],
           items: [
-            { label: "Working With AI", slug: "efficiency/working_with_ai" },
+            { label: "What can AI do?", slug: "efficiency/what_can_ai_do" },
             {
-              label: "Prompting & Iteration Essentials",
-              slug: "efficiency/prompting_and_iteration_essentials",
+              label: "Prompting Essentials",
+              slug: "efficiency/prompting_essentials",
             },
             {
               label: "Research & Fact-Checking with AI",
