@@ -67,12 +67,12 @@ export default defineConfig({
               slug: "efficiency/prompting_essentials",
             },
             {
-              label: "Research & Fact-Checking with AI",
-              slug: "efficiency/research_and_fact_checking_with_ai",
+              label: "STEM Guidance & Problem-Solving with AI",
+              slug: "efficiency/stem_and_problem_solving",
             },
             {
-              label: "Writing & Studying Workflows",
-              slug: "efficiency/writing_and_studying_workflows",
+              label: "Humanities Help & Critical Reading",
+              slug: "efficiency/humanities_and_critical_reading",
             },
           ],
         },
