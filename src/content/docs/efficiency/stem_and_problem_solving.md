@@ -29,7 +29,7 @@ Problem: The integral of x^2 * ln x with respect to x.
 Instead of giving me the full solution, can you suggest a strategy and outline the steps I should attempt? Then I’ll try it and share what I got.
 ```
 
-> ChatGPT is not perfect at handling very complicated integrals. If your integral is complex, consider checking it with **Wolfram|Alpha** to verify. (See the Tools section for details.)
+> ChatGPT is not perfect at handling very complicated integrals. If your integral is complex, consider checking it with **Wolfram Alpha** to verify. (See the Tools section for details.)
 ---
 
 ## 2. Use Chain-of-Thought for Understanding
@@ -98,7 +98,7 @@ Create a flowchart or checklist for solving integration (or linear algebra / cir
 
 ---
 
-## Apply it!
+## 7. Apply it!
 
 Imagine you have this question:
 
@@ -114,7 +114,7 @@ You could use this workflow:
 
 ---
 
-## Why This Matters
+## 8. Why This Matters
 
 - You build *problem-solving skills* instead of becoming dependent.  
 - You understand underlying principles, not just memorized steps.  
@@ -122,6 +122,6 @@ You could use this workflow:
 
 ---
 
-## Summary
+## 9. Summary
 
 In STEM subjects, treat AI like a tutor who asks questions, provides scaffolding, and nudges you forward—not like a calculator that does all the work. Use hints, reason step by step, simulate, check mistakes, and then practice more. That’s how mastery happens.

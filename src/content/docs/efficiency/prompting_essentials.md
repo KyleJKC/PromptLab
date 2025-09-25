@@ -168,7 +168,7 @@ Conclusion:
 
 ---
 
-## A Comparison Table
+## 7. A Comparison Table
 
 | Technique            | Best for…                         | Student Example Use Case                                   |
 | -------------------- | --------------------------------- | ---------------------------------------------------------- |
@@ -181,6 +181,6 @@ Conclusion:
 
 ---
 
-## Summary
+## 8. Summary
 
 You’ve learned six effective ways of prompting an AI chatbot. You don’t have to follow the exact same format when actually chatting with AI. What matters is understanding how these techniques work so you can use—or combine—them in your own prompts to get better responses.

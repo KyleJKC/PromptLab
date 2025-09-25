@@ -104,8 +104,8 @@ export default defineConfig({
           ],
         },
         {
-          label: "Reference",
-          autogenerate: { directory: "reference" },
+          label: "Appendix",
+          autogenerate: { directory: "appendix" },
         },
       ],
     }),

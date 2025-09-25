@@ -91,7 +91,7 @@ What is the difference between language models and reasoning models, and when sh
 
 ---
 
-## Table: When to Use Which AI?
+## 4. Table: When to Use Which AI?
 
 | Task                                  | Use AI? | Use Reasoning Model?         | Why It Works                                                                    |
 | ------------------------------------- | -------- | ---------------------------- | ------------------------------------------------------------------------------- |
@@ -102,7 +102,7 @@ What is the difference between language models and reasoning models, and when sh
 
 ---
 
-## Summary
+## 5. Summary
 
 - **Know your AI’s strengths:** Use it to generate, brainstorm, and summarize.
 - **Guard against its limitations:** Always cross-check facts, especially with hallucination risk.

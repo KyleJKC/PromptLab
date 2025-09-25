@@ -94,7 +94,7 @@ What objections does X philosopher raise against Y, and how do others reply?
 
 ---
 
-## Prompts & Templates You Can Reuse
+## 7. Prompts & Templates You Can Reuse
 ```
 Explain concept X with examples and compare how two authors treat it.
 ```
@@ -107,7 +107,7 @@ I wrote this paragraph; can you critique it: clarity, evidence, connection to th
 
 ---
 
-## Applying It!
+## 8. Applying It!
 
 Say you are reading *The Great Gatsby*. You could:
 
@@ -124,7 +124,7 @@ What are themes in Gatsby related to illusion vs. reality, and how does Fitzgera
 
 ---
 
-## Why This Matters
+## 9. Why This Matters
 
 - Helps you go beyond surface comprehension. You learn to think, not just absorb.  
 - Prepares you for essay writing, class discussion, thesis defense.  
@@ -132,13 +132,13 @@ What are themes in Gatsby related to illusion vs. reality, and how does Fitzgera
 
 ---
 
-## Research & Evidence
+## 10. Research & Evidence
 
 - Digital humanities use AI tools for style/authorship detection, character networks, etc.
 - Humanities courses are starting to use AI to help students revise AI-generated drafts, fostering critical thinking about voice and expression.  
 
 ---
 
-## Summary
+## 11. Summary
 
 In humanities, AI works best as a helper: giving context, probing ideas, and helping with analysis—not replacing your own interpretation. Use it to clarify, question, compare, and write—but always with your own thinking front and center.
