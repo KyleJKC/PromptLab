@@ -1,6 +1,6 @@
-# Prompt Lab  
+![Prompt Lab Logo](https://promptlab.kylejin.com/_astro/promptlab_light.BI_tPk3w.webp)
 
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](./#-contributing)[![Made with Markdown](https://img.shields.io/badge/made%20with-Markdown-1f425f.svg)](https://daringfireball.net/projects/markdown/)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/) [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](./#-contributing) [![Made with Markdown](https://img.shields.io/badge/made%20with-Markdown-1f425f.svg)](https://daringfireball.net/projects/markdown/)
 
 **Prompt Lab** is a student-first, Markdown-based documentation website that teaches people to use AI efficiently and ethically.  
 It’s built for students who want to **raise grades and save time without crossing academic or ethical lines**.  
