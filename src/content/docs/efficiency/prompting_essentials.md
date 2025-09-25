@@ -4,19 +4,19 @@ description: Different prompting techniques suited for different scenarios.
 ---
 > Different prompting techniques suit different scenarios.
 
-When asking ChatGPT for a question, how do you construct your prompt? Do you just thrown it without example, or you'd try to cram in as much detail as you can?
+When asking ChatGPT a question, how do you construct your prompt? Do you just throw it in without examples, or do you try to include as much detail as you can?
 
-On this page, you will learn about different prompting techniques and styles. Each of them have their best use cases. After you finish this page, you'd be able to articulate prompts that work best for your own scenario.
+On this page, you will learn about different prompting techniques and styles. Each of them has its best use cases. After you finish this page, you’ll be able to write prompts that work best for your own scenario.
 
-Most of the information on this page is originated from the technique section of [Prompt Engineering Guide](https://www.promptingguide.ai/techniques). If you are interested in diving deeper into each of the following prompting technique, I'd recommend checking out the Guide.
+Most of the information on this page originates from the Techniques section of the [Prompt Engineering Guide](https://www.promptingguide.ai/techniques). If you are interested in diving deeper into each of the following prompting techniques, I recommend checking out the guide.
 
 ## 1. Zero-Shot Prompting
 
-**What it is:** Instructs the model directly—no examples needed. The LLM does the rest.
+**What it is:** Instructs the model directly—no examples needed. The model does the rest.
 
 **How you can use it:**
 
-* **Essay intros**: *“Introduce to me about the importance of photosynthesis.”*
+* **Essay intros**: *“Introduce the importance of photosynthesis.”*
 * **Quick definitions**: *“Define ‘mitochondria’ in one sentence.”*
 * **Simple classification**: *“Classify this sentence as formal or informal: ‘Hey, what’s up?’”*
 
@@ -36,7 +36,7 @@ Photosynthesis is the process by which plants convert light energy into chemical
 
 ## 2. Few-Shot Prompting
 
-**What it is:** You provide a few example inputs with their outputs. The model infers the pattern, then continues.
+**What it is:** You provide a few example inputs with their outputs. The model infers the pattern, then continues it.
 
 **How you can use it:**
 
@@ -69,7 +69,7 @@ Objects are drawn toward Earth due to the force of gravity.
 
 ## 3. Chain-of-Thought (CoT) Prompting
 
-**What it is:** Encourages the model to “think step by step,” i.e., show its reasoning before delivering the answer.
+**What it is:** Encourages the model to “think step by step,” i.e., to show its reasoning before delivering the answer.
 
 **How you can use it:**
 
@@ -176,11 +176,11 @@ Conclusion:
 | **Few-Shot**         | Pattern replication, formatting   | Show two vocab transformations, then ask model to do more. |
 | **Chain-of-Thought** | Step-by-step reasoning            | Solving multi-step math or logic problems.                 |
 | **Tree of Thoughts** | Exploring structure or creativity | Outlining essays or multi-option choices.                  |
-| **ReAct**            | Research with reasoning           | Propose, lookup, and validate historical facts.            |
+| **ReAct**            | Research with reasoning           | Propose, look up, and validate historical facts.           |
 | **Meta Prompting**   | Template and structure building   | Create reusable essay/report/study templates.              |
 
 ---
 
 ## Summary
 
-Now you have learned about the most effective 6 ways of prompting an AI chatbot. You don't have to follow the exact same format whe nactaully chatting with AI. The importance of this page is for you to understand the inner workings of these techniques so that you can utilize or even combine them in your own prompt to get the ideal response.
+You’ve learned six effective ways of prompting an AI chatbot. You don’t have to follow the exact same format when actually chatting with AI. What matters is understanding how these techniques work so you can use—or combine—them in your own prompts to get better responses.

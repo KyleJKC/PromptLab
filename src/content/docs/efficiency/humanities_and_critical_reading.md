@@ -13,13 +13,13 @@ After going through this page, you’ll be able to use AI to help interrogate ar
 
 ## 1. Clarify Concepts & Context
 
-**What it is:** Using AI to define philosophical, historical, literary concepts, and provide background/context so you understand where ideas come from.
+**What it is:** Use AI to define philosophical, historical, and literary concepts, and to provide background/context so you understand where ideas come from.
 
 **Example:**
 ```
 Define the term ‘existentialism’ in literature, include its historical background, main thinkers, and some example works.
 ```
-``` 
+```
 What was happening politically/culturally in Victorian England that shaped Gothic literature?
 ```
 
@@ -27,7 +27,7 @@ What was happening politically/culturally in Victorian England that shaped Gothi
 
 ## 2. Engaging with Texts — Ask Questions, Compare Interpretations
 
-**What it is:** Rather than asking "What is the summary?", ask AI to help you analyze. What themes? What contradictions? What possible readings?
+**What it is:** Rather than asking “What is the summary?”, ask AI to help you analyze. What themes? What contradictions? What possible readings?
 
 **Example:**
 ```
@@ -41,7 +41,7 @@ The narrator sounds unreliable. Find evidence in the text that supports and chal
 
 ## 3. Socratic Dialogue & Writing Practice
 
-**What it is:** Use AI as a conversation partner: ask “why?”, “how?”, “what if?” to dig deeper. Then practice writing based on that.
+**What it is:** Use AI as a conversation partner: ask “why?”, “how?”, and “what if?” to dig deeper. Then practice writing based on that.
 
 **Example:**
 ```
@@ -55,7 +55,7 @@ If I changed the ending/theme of this novel, how would that affect its message?
 
 ## 4. Supporting Essay & Argument Structure
 
-**What it is:** Use AI to help you plan essays: thesis, supporting arguments, counterarguments, evidence, structure.
+**What it is:** Use AI to help you plan essays: thesis, supporting arguments, counterarguments, evidence, and structure.
 
 **Example:**
 ```
@@ -69,19 +69,19 @@ Here's my outline; suggest counterarguments I should address.
 
 ## 5. Deep Reading Analysis
 
-**What it is:** Using AI to examine style, symbols, character relations, themes, tone, etc.
+**What it is:** Use AI to examine style, symbols, character relationships, themes, and tone.
 
 **Example:**
 ```
 Find metaphors related to light and darkness in this poem and explain how they contribute to theme.
 ```
-* You can also use AI to extract character relationships, social networks from long novels.
+* You can also use AI to extract character relationships or social networks from long novels.
 
 ---
 
 ## 6. Source Analysis, Interpretation, & Critique
 
-**What it is:** Humanities often care about *whose* view, *why*, & *how it fits historically*. AI can help surface these, but you need to interpret.
+**What it is:** Humanities often care about *whose* view, *why*, and *how it fits historically*. AI can help surface these, but you need to interpret.
 
 **Example:**
 ```
@@ -119,14 +119,14 @@ Define ‘the American Dream’ historically and in 1920s America.
 ```
 What are themes in Gatsby related to illusion vs. reality, and how does Fitzgerald’s style (tone, symbols) support those themes?
 ```
-3. Write your own thesis ideas and have AI suggest counterarguments.  
-4. Draft paragraph; ask AI to highlight weaknesses (e.g. missing quote, unclear link to thesis).  
+3. Write your thesis ideas and have AI suggest counterarguments.  
+4. Draft a paragraph; ask AI to highlight weaknesses (e.g., missing quote, unclear link to thesis).  
 
 ---
 
 ## Why This Matters
 
-- Helps you go beyond surface comprehension. You learn to think, not just to absorb.  
+- Helps you go beyond surface comprehension. You learn to think, not just absorb.  
 - Prepares you for essay writing, class discussion, thesis defense.  
 - Helps you appreciate nuance, context, disagreement—not just facts.  
 
@@ -134,11 +134,11 @@ What are themes in Gatsby related to illusion vs. reality, and how does Fitzgera
 
 ## Research & Evidence
 
-- Digital humanities uses AI tools for style/authorship detection, character networks, etc.
+- Digital humanities use AI tools for style/authorship detection, character networks, etc.
 - Humanities courses are starting to use AI to help students revise AI-generated drafts, fostering critical thinking about voice and expression.  
 
 ---
 
 ## Summary
 
-In humanities, AI works best as a helper: giving context, probing ideas, helping with analysis, not replacing your own interpretation. Use it to clarify, question, compare, and write—but always with your own thinking front and center.
+In humanities, AI works best as a helper: giving context, probing ideas, and helping with analysis—not replacing your own interpretation. Use it to clarify, question, compare, and write—but always with your own thinking front and center.

@@ -87,14 +87,6 @@ export default defineConfig({
               label: "Attribution & How to Cite AI",
               slug: "ethics/attribution_and_how_to_cite_ai",
             },
-            {
-              label: "Privacy, Bias & Safety (Student Basics)",
-              slug: "ethics/privacy_bias_and_safety_student_basics",
-            },
-            {
-              label: "Transparency & Audit Trail (Lightweight)",
-              slug: "ethics/transparency_and_audit_trail_lightweight",
-            },
           ],
         },
         {
@@ -102,16 +94,12 @@ export default defineConfig({
           items: [
             { label: "Starter Stack", slug: "tools/starter_stack" },
             {
-              label: "Research & Citation Helpers",
-              slug: "tools/research_and_citation_helpers",
+              label: "Math and Coding",
+              slug: "tools/math_and_coding",
             },
             {
-              label: "Writing, Slides & Note-Taking",
-              slug: "tools/writing_slides_and_note_taking",
-            },
-            {
-              label: "Coding & Math Assist",
-              slug: "tools/coding_and_math_assist",
+              label: "Writing, Text, and Document",
+              slug: "tools/writing_text_and_document",
             },
           ],
         },
