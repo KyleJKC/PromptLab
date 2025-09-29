@@ -2,9 +2,11 @@
 import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
 import starlightThemeNova from "starlight-theme-nova";
+import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
+  site: "https://promptlab.kylejin.com",
   integrations: [
     starlight({
       plugins: [starlightThemeNova()],
@@ -109,5 +111,6 @@ export default defineConfig({
         },
       ],
     }),
+    sitemap(),
   ],
 });

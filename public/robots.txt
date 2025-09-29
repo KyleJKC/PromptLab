@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://promptlab.kylejin.com/sitemap.xml
+Sitemap: https://promptlab.kylejin.com/sitemap-index.xml
+
+
