@@ -23,6 +23,115 @@ export default defineConfig({
         replacesTitle: true,
       },
       head: [
+        // SEO Meta Tags
+        {
+          tag: "meta",
+          attrs: {
+            name: "description",
+            content: "Learn to use AI efficiently and ethically to save time without crossing lines. Boost productivity, learn ethics, and find the best AI tools.",
+          },
+        },
+        {
+          tag: "meta",
+          attrs: {
+            name: "keywords",
+            content: "AI, artificial intelligence, prompt engineering, AI ethics, productivity, AI tools, academic integrity, AI learning, prompt lab",
+          },
+        },
+        {
+          tag: "meta",
+          attrs: {
+            name: "author",
+            content: "Prompt Lab",
+          },
+        },
+        {
+          tag: "meta",
+          attrs: {
+            name: "robots",
+            content: "index, follow",
+          },
+        },
+        {
+          tag: "meta",
+          attrs: {
+            name: "viewport",
+            content: "width=device-width, initial-scale=1.0",
+          },
+        },
+        // Open Graph Tags
+        {
+          tag: "meta",
+          attrs: {
+            property: "og:title",
+            content: "Prompt Lab - Learn how to use AI efficiently and ethically",
+          },
+        },
+        {
+          tag: "meta",
+          attrs: {
+            property: "og:description",
+            content: "Learn to use AI efficiently and ethically to save time without crossing lines. Boost productivity, learn ethics, and find the best AI tools.",
+          },
+        },
+        {
+          tag: "meta",
+          attrs: {
+            property: "og:type",
+            content: "website",
+          },
+        },
+        {
+          tag: "meta",
+          attrs: {
+            property: "og:url",
+            content: "https://promptlab.kylejin.com",
+          },
+        },
+        {
+          tag: "meta",
+          attrs: {
+            property: "og:image",
+            content: "https://promptlab.kylejin.com/src/assets/hero.png",
+          },
+        },
+        {
+          tag: "meta",
+          attrs: {
+            property: "og:site_name",
+            content: "Prompt Lab",
+          },
+        },
+        // Twitter Card Tags
+        {
+          tag: "meta",
+          attrs: {
+            name: "twitter:card",
+            content: "summary_large_image",
+          },
+        },
+        {
+          tag: "meta",
+          attrs: {
+            name: "twitter:title",
+            content: "Prompt Lab - Learn how to use AI efficiently and ethically",
+          },
+        },
+        {
+          tag: "meta",
+          attrs: {
+            name: "twitter:description",
+            content: "Learn to use AI efficiently and ethically to save time without crossing lines. Boost productivity, learn ethics, and find the best AI tools.",
+          },
+        },
+        {
+          tag: "meta",
+          attrs: {
+            name: "twitter:image",
+            content: "https://promptlab.kylejin.com/src/assets/hero.png",
+          },
+        },
+        // Favicon and App Icons
         {
           tag: "link",
           attrs: {
@@ -46,6 +155,14 @@ export default defineConfig({
           attrs: { rel: "apple-touch-icon", href: "/apple-touch-icon.png" },
         },
         { tag: "link", attrs: { rel: "manifest", href: "/site.webmanifest" } },
+        // Canonical URL
+        {
+          tag: "link",
+          attrs: {
+            rel: "canonical",
+            href: "https://promptlab.kylejin.com",
+          },
+        },
       ],
       social: [
         {
@@ -111,6 +228,17 @@ export default defineConfig({
         },
       ],
     }),
-    sitemap(),
+    sitemap({
+      filter: (page) => !page.includes('404'),
+      changefreq: 'weekly',
+      priority: 0.7,
+      lastmod: new Date(),
+      i18n: {
+        defaultLocale: 'en',
+        locales: {
+          en: 'en-US',
+        },
+      },
+    }),
   ],
 });
