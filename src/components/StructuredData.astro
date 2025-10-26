@@ -1,0 +1,75 @@
+---
+export interface Props {
+  type?: 'WebSite' | 'Organization' | 'Article';
+  title?: string;
+  description?: string;
+  url?: string;
+  image?: string;
+  author?: string;
+  datePublished?: string;
+  dateModified?: string;
+}
+
+const {
+  type = 'WebSite',
+  title = 'Prompt Lab - Learn how to use AI efficiently and ethically',
+  description = 'Learn to use AI efficiently and ethically to save time without crossing lines. Boost productivity, learn ethics, and find the best AI tools.',
+  url = 'https://promptlab.kylejin.com',
+  image = 'https://promptlab.kylejin.com/src/assets/hero.png',
+  author = 'Prompt Lab',
+  datePublished,
+  dateModified
+} = Astro.props;
+
+const baseStructuredData: any = {
+  "@context": "https://schema.org",
+  "@type": type,
+  "name": title,
+  "description": description,
+  "url": url,
+  "image": image,
+  "author": {
+    "@type": "Organization",
+    "name": author,
+    "url": "https://promptlab.kylejin.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Prompt Lab",
+    "url": "https://promptlab.kylejin.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://promptlab.kylejin.com/src/assets/promptlab_light.webp"
+    }
+  }
+};
+
+let structuredData: any = baseStructuredData;
+
+if (type === 'WebSite') {
+  structuredData = {
+    ...baseStructuredData,
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://promptlab.kylejin.com/search?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    },
+    "sameAs": [
+      "https://github.com/KyleJKC"
+    ]
+  };
+} else if (type === 'Article') {
+  structuredData = {
+    ...baseStructuredData,
+    "headline": title,
+    "datePublished": datePublished,
+    "dateModified": dateModified || datePublished,
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": url
+    }
+  };
+}
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(structuredData)}></script>
